@@ -867,6 +867,7 @@
                       "target": "_blank"
                     }
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_image_10",
@@ -909,7 +910,7 @@
                   "text": "<p style=\"line-height: 140%;\"><a rel=\"noopener\" href=\"https://www.facebook.com/profile.php?id=100095350403320\" target=\"_blank\" data-u-link-value=\"eyJuYW1lIjoid2ViIiwiYXR0cnMiOnsiaHJlZiI6Int7aHJlZn19IiwidGFyZ2V0Ijoie3t0YXJnZXR9fSJ9LCJ2YWx1ZXMiOnsiaHJlZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9wcm9maWxlLnBocD9pZD0xMDAwOTUzNTA0MDMzMjAiLCJ0YXJnZXQiOiJfYmxhbmsifX0=\"><span style=\"color: #3598db; line-height: 19.6px;\">Facebook</span></a></p>",
                   "_override": {
                     "mobile": {
-                      "hideMobile": true
+                      "hideMobile": false
                     }
                   }
                 }
@@ -949,6 +950,7 @@
                       "target": "_blank"
                     }
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_image_11",
@@ -991,7 +993,7 @@
                   "text": "<p style=\"line-height: 140%;\"><span style=\"color: #3598db; line-height: 19.6px;\">LinkedIn</span></p>",
                   "_override": {
                     "mobile": {
-                      "hideMobile": true
+                      "hideMobile": false
                     }
                   }
                 }
@@ -1023,6 +1025,7 @@
           },
           "padding": "0px",
           "anchor": "",
+          "hideDesktop": false,
           "_meta": {
             "htmlID": "u_row_13",
             "htmlClassNames": "u_row"
