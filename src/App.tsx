@@ -10,7 +10,7 @@ export default function App() {
     unlayer?.exportHtml((data) => {
       const { design, html, } = data;
       console.log('exportHtml', design);
-      console.log('html :>> ', html);
+      // console.log('html :>> ', html);
     });
     // unlayer?.saveDesign((data)=>{
     //   const { design, html, } = data;

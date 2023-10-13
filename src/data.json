@@ -1,9 +1,9 @@
 {
   "counters": {
-    "u_column": 25,
-    "u_row": 12,
-    "u_content_image": 9,
-    "u_content_text": 13,
+    "u_column": 29,
+    "u_row": 14,
+    "u_content_image": 11,
+    "u_content_text": 15,
     "u_content_heading": 3,
     "u_content_button": 3
   },
@@ -282,145 +282,7 @@
                   "hideable": true,
                   "text": "<div>\n<h1><strong>PCEP - Certified Entry-Level Python Programmer</strong></h1>\n</div>"
                 }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_4",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "jQ7MDGY_lg",
-            "contents": [
-              {
-                "id": "n7CFXJCYiB",
-                "type": "heading",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "headingType": "h4",
-                  "fontSize": "8px",
-                  "textAlign": "left",
-                  "lineHeight": "200%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_heading_3",
-                    "htmlClassNames": "u_content_heading"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<h1><strong>PCAP - Certified Associate in Python Programming</strong></h1>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_5",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "AfhDsq_Lme",
-            "contents": [
-              {
-                "id": "8XXZ-K64CQ",
-                "type": "heading",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "headingType": "h4",
-                  "fontSize": "8px",
-                  "textAlign": "left",
-                  "lineHeight": "200%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_heading_2",
-                    "htmlClassNames": "u_content_heading"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<h1><strong>PCPP1 - Certified Professional in Python Programming 1</strong></h1>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_6",
-                "htmlClassNames": "u_column"
-              }
-            }
-          }
-        ],
-        "values": {
-          "displayCondition": null,
-          "columns": false,
-          "backgroundColor": "",
-          "columnsBackgroundColor": "",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "size": "custom",
-            "position": "center"
-          },
-          "padding": "0px",
-          "anchor": "",
-          "hideDesktop": false,
-          "_meta": {
-            "htmlID": "u_row_4",
-            "htmlClassNames": "u_row"
-          },
-          "selectable": true,
-          "draggable": true,
-          "duplicatable": true,
-          "deletable": true,
-          "hideable": true
-        }
-      },
-      {
-        "id": "8e3MIXkG3M",
-        "cells": [1, 1, 1],
-        "columns": [
-          {
-            "id": "P5nFEROCkg",
-            "contents": [
+              },
               {
                 "id": "16aE82npar",
                 "type": "text",
@@ -448,145 +310,9 @@
                   "duplicatable": true,
                   "deletable": true,
                   "hideable": true,
-                  "text": "<div id=\"elm_1514441186299\">\n<div>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $100</p>\n</div>\n</div>\n<p style=\"line-height: 140%;\"> </p>"
+                  "text": "<div id=\"elm_1514441186299\">\n<div>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $100</p>\n</div>\n</div>"
                 }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_7",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "bawvJKw8wq",
-            "contents": [
-              {
-                "id": "eofW-uCPlq",
-                "type": "text",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "fontSize": "14px",
-                  "textAlign": "left",
-                  "lineHeight": "140%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_text_3",
-                    "htmlClassNames": "u_content_text"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<div id=\"elm_1514441186301\">\n<div>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $370</p>\n</div>\n</div>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_8",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "hmH1hzrBh_",
-            "contents": [
-              {
-                "id": "BnYdXwTmm0",
-                "type": "text",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "fontSize": "14px",
-                  "textAlign": "left",
-                  "lineHeight": "140%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_text_4",
-                    "htmlClassNames": "u_content_text"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<div id=\"elm_1514441186299\">\n<div id=\"elm_1514441186430\">\n<div>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $220</p>\n</div>\n</div>\n<p style=\"line-height: 140%;\"> </p>\n</div>\n<p style=\"line-height: 140%;\"> </p>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_9",
-                "htmlClassNames": "u_column"
-              }
-            }
-          }
-        ],
-        "values": {
-          "displayCondition": null,
-          "columns": false,
-          "backgroundColor": "",
-          "columnsBackgroundColor": "",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "size": "custom",
-            "position": "center"
-          },
-          "padding": "0px",
-          "anchor": "",
-          "hideDesktop": false,
-          "_meta": {
-            "htmlID": "u_row_5",
-            "htmlClassNames": "u_row"
-          },
-          "selectable": true,
-          "draggable": true,
-          "duplicatable": true,
-          "deletable": true,
-          "hideable": true
-        }
-      },
-      {
-        "id": "R9GGuLTl-e",
-        "cells": [1, 1, 1],
-        "columns": [
-          {
-            "id": "L6wjh4ed13",
-            "contents": [
+              },
               {
                 "id": "4lXbNyUdzM",
                 "type": "image",
@@ -619,149 +345,7 @@
                   "deletable": true,
                   "hideable": true
                 }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_10",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "cEP6-D7DuZ",
-            "contents": [
-              {
-                "id": "uyRIeObtU6",
-                "type": "image",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "src": {
-                    "url": "https://assets.unlayer.com/stock-templates1696045073978-1152328000000079004_1_1695746042351_(1).png",
-                    "width": 490,
-                    "height": 490
-                  },
-                  "textAlign": "center",
-                  "altText": "",
-                  "action": {
-                    "name": "web",
-                    "values": {
-                      "href": "",
-                      "target": "_blank"
-                    }
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_image_5",
-                    "htmlClassNames": "u_content_image"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_11",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "_jkAHO3i5S",
-            "contents": [
-              {
-                "id": "GREC1ceRtl",
-                "type": "image",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "src": {
-                    "url": "https://assets.unlayer.com/stock-templates1696045081350-1152328000000079004_3_1695746042532_(1).png",
-                    "width": 490,
-                    "height": 490
-                  },
-                  "textAlign": "center",
-                  "altText": "",
-                  "action": {
-                    "name": "web",
-                    "values": {
-                      "href": "",
-                      "target": "_blank"
-                    }
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_image_4",
-                    "htmlClassNames": "u_content_image"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_12",
-                "htmlClassNames": "u_column"
-              }
-            }
-          }
-        ],
-        "values": {
-          "displayCondition": null,
-          "columns": false,
-          "backgroundColor": "",
-          "columnsBackgroundColor": "",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "size": "custom",
-            "position": "center"
-          },
-          "padding": "0px",
-          "anchor": "",
-          "hideDesktop": false,
-          "_meta": {
-            "htmlID": "u_row_6",
-            "htmlClassNames": "u_row"
-          },
-          "selectable": true,
-          "draggable": true,
-          "duplicatable": true,
-          "deletable": true,
-          "hideable": true
-        }
-      },
-      {
-        "id": "4aJvnajyCK",
-        "cells": [1, 1, 1],
-        "columns": [
-          {
-            "id": "lNO64q4MyJ",
-            "contents": [
+              },
               {
                 "id": "UpmLLbUi4m",
                 "type": "text",
@@ -791,143 +375,7 @@
                   "hideable": true,
                   "text": "<p style=\"line-height: 140%;\">This course is designed for people who want to learn the Python programming language in preparation for using Python to develop software for a wide range of applications, such as data science, machine learning, artificial intelligence, and web development.</p>"
                 }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_13",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "Rr-3bBHVOF",
-            "contents": [
-              {
-                "id": "9kK7Ci9QMB",
-                "type": "text",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "fontSize": "14px",
-                  "textAlign": "left",
-                  "lineHeight": "140%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_text_7",
-                    "htmlClassNames": "u_content_text"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<p style=\"line-height: 140%;\">PCAP certification is a valuable credential for individuals looking to acquire the skills and knowledge essential to continue to more advanced, more specialized roles in Software Development, Security, Networking, IoT, and engineering.</p>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_14",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "MbXCrrcLKP",
-            "contents": [
-              {
-                "id": "mVEU4KCt-E",
-                "type": "text",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "fontSize": "14px",
-                  "textAlign": "left",
-                  "lineHeight": "140%",
-                  "linkStyle": {
-                    "inherit": true,
-                    "linkColor": "#0000ee",
-                    "linkHoverColor": "#0000ee",
-                    "linkUnderline": true,
-                    "linkHoverUnderline": true
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_text_6",
-                    "htmlClassNames": "u_content_text"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true,
-                  "text": "<p style=\"line-height: 140%;\">This course is designed for existing Python programmers who have at least one year of Python experience and who want to expand their programming proficiency in Python.</p>"
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_15",
-                "htmlClassNames": "u_column"
-              }
-            }
-          }
-        ],
-        "values": {
-          "displayCondition": null,
-          "columns": false,
-          "backgroundColor": "",
-          "columnsBackgroundColor": "",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "size": "custom",
-            "position": "center"
-          },
-          "padding": "0px",
-          "anchor": "",
-          "hideDesktop": false,
-          "_meta": {
-            "htmlID": "u_row_7",
-            "htmlClassNames": "u_row"
-          },
-          "selectable": true,
-          "draggable": true,
-          "duplicatable": true,
-          "deletable": true,
-          "hideable": true
-        }
-      },
-      {
-        "id": "DhhCEAGKDT",
-        "cells": [1, 1, 1],
-        "columns": [
-          {
-            "id": "-SCLlLBPpp",
-            "contents": [
+              },
               {
                 "id": "IxOmhzkOg0",
                 "type": "button",
@@ -984,14 +432,138 @@
               "border": {},
               "borderRadius": "0px",
               "_meta": {
-                "htmlID": "u_column_16",
+                "htmlID": "u_column_4",
                 "htmlClassNames": "u_column"
               }
             }
           },
           {
-            "id": "5Wkk1XJsyb",
+            "id": "jQ7MDGY_lg",
             "contents": [
+              {
+                "id": "n7CFXJCYiB",
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "headingType": "h4",
+                  "fontSize": "8px",
+                  "textAlign": "left",
+                  "lineHeight": "200%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_heading_3",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<h1><strong>PCAP - Certified Associate in Python Programming</strong></h1>"
+                }
+              },
+              {
+                "id": "eofW-uCPlq",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<div id=\"elm_1514441186301\">\n<div>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $370</p>\n</div>\n</div>"
+                }
+              },
+              {
+                "id": "uyRIeObtU6",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/stock-templates1696045073978-1152328000000079004_1_1695746042351_(1).png",
+                    "width": 490,
+                    "height": 490
+                  },
+                  "textAlign": "center",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_5",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "id": "9kK7Ci9QMB",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_7",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<p style=\"line-height: 140%;\">PCAP certification is a valuable credential for individuals looking to acquire the skills and knowledge essential to continue to more advanced, more specialized roles in Software Development, Security, Networking, IoT, and engineering.</p>"
+                }
+              },
               {
                 "id": "aQA7lnz64o",
                 "type": "button",
@@ -1048,14 +620,138 @@
               "border": {},
               "borderRadius": "0px",
               "_meta": {
-                "htmlID": "u_column_17",
+                "htmlID": "u_column_5",
                 "htmlClassNames": "u_column"
               }
             }
           },
           {
-            "id": "155H6SFx4K",
+            "id": "AfhDsq_Lme",
             "contents": [
+              {
+                "id": "8XXZ-K64CQ",
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "headingType": "h4",
+                  "fontSize": "8px",
+                  "textAlign": "left",
+                  "lineHeight": "200%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_heading_2",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<h1><strong>PCPP1 - Certified Professional in Python Programming 1</strong></h1>"
+                }
+              },
+              {
+                "id": "BnYdXwTmm0",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_4",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<div id=\"elm_1514441186299\">\n<div id=\"elm_1514441186430\">\n<div>\n<p style=\"line-height: 140%;\">Certification package + Mentor Hour - $220</p>\n</div>\n</div>\n</div>"
+                }
+              },
+              {
+                "id": "GREC1ceRtl",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/stock-templates1696045081350-1152328000000079004_3_1695746042532_(1).png",
+                    "width": 490,
+                    "height": 490
+                  },
+                  "textAlign": "center",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_4",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "id": "mVEU4KCt-E",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "hideDesktop": false,
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_6",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "text": "<p style=\"line-height: 140%;\">This course is designed for existing Python programmers who have at least one year of Python experience and who want to expand their programming proficiency in Python.</p>"
+                }
+              },
               {
                 "id": "2AOp6a4BWf",
                 "type": "button",
@@ -1112,7 +808,7 @@
               "border": {},
               "borderRadius": "0px",
               "_meta": {
-                "htmlID": "u_column_18",
+                "htmlID": "u_column_6",
                 "htmlClassNames": "u_column"
               }
             }
@@ -1134,7 +830,7 @@
           "anchor": "",
           "hideDesktop": false,
           "_meta": {
-            "htmlID": "u_row_8",
+            "htmlID": "u_row_4",
             "htmlClassNames": "u_row"
           },
           "selectable": true,
@@ -1145,143 +841,44 @@
         }
       },
       {
-        "id": "7iuBi2gYGH",
-        "cells": [49.6, 50.4],
-        "columns": [
-          {
-            "id": "E0UWIH2n42",
-            "contents": [
-              {
-                "id": "PjKpcEv6Jk",
-                "type": "image",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "src": {
-                    "url": "https://assets.unlayer.com/stock-templates1696045641723-1152328000000079004_5_1695746042752_zcsclwgtfb1.png",
-                    "width": 100,
-                    "height": 100,
-                    "autoWidth": false,
-                    "maxWidth": "14%"
-                  },
-                  "textAlign": "right",
-                  "altText": "",
-                  "action": {
-                    "name": "web",
-                    "values": {
-                      "href": "",
-                      "target": "_blank"
-                    }
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_image_8",
-                    "htmlClassNames": "u_content_image"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_22",
-                "htmlClassNames": "u_column"
-              }
-            }
-          },
-          {
-            "id": "pjJNWs7_rT",
-            "contents": [
-              {
-                "id": "AIGEt7pdKb",
-                "type": "image",
-                "values": {
-                  "containerPadding": "10px",
-                  "anchor": "",
-                  "src": {
-                    "url": "https://assets.unlayer.com/stock-templates1696045680420-1152328000000079004_6_1695746042818_zcsclwgtlin1.png",
-                    "width": 100,
-                    "height": 100,
-                    "autoWidth": false,
-                    "maxWidth": "14%"
-                  },
-                  "textAlign": "left",
-                  "altText": "",
-                  "action": {
-                    "name": "web",
-                    "values": {
-                      "href": "",
-                      "target": "_blank"
-                    }
-                  },
-                  "hideDesktop": false,
-                  "displayCondition": null,
-                  "_meta": {
-                    "htmlID": "u_content_image_9",
-                    "htmlClassNames": "u_content_image"
-                  },
-                  "selectable": true,
-                  "draggable": true,
-                  "duplicatable": true,
-                  "deletable": true,
-                  "hideable": true
-                }
-              }
-            ],
-            "values": {
-              "backgroundColor": "",
-              "padding": "0px",
-              "border": {},
-              "borderRadius": "0px",
-              "_meta": {
-                "htmlID": "u_column_23",
-                "htmlClassNames": "u_column"
-              }
-            }
-          }
-        ],
-        "values": {
-          "displayCondition": null,
-          "columns": false,
-          "backgroundColor": "",
-          "columnsBackgroundColor": "",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "size": "custom",
-            "position": "center"
-          },
-          "padding": "10px 1px 1px",
-          "anchor": "",
-          "hideDesktop": false,
-          "_meta": {
-            "htmlID": "u_row_10",
-            "htmlClassNames": "u_row"
-          },
-          "selectable": true,
-          "draggable": true,
-          "duplicatable": true,
-          "deletable": true,
-          "hideable": true
-        }
-      },
-      {
-        "id": "g81iRCc-yZ",
+        "id": "bRjTzuDO7c",
         "cells": [1, 1],
         "columns": [
           {
-            "id": "-p8HCF6uSU",
+            "id": "OAWc9g486Y",
             "contents": [
+              {
+                "id": "Hpx5zI5Zs5",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/stock-templates/1697162660679-1152328000000079004_5_1695746042752_zcsclwgtfb1.png",
+                    "width": 100,
+                    "height": 100
+                  },
+                  "textAlign": "center",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_10",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
               {
                 "id": "XBbG3ZrkN3",
                 "type": "text",
@@ -1289,7 +886,7 @@
                   "containerPadding": "10px",
                   "anchor": "",
                   "fontSize": "14px",
-                  "textAlign": "right",
+                  "textAlign": "center",
                   "lineHeight": "140%",
                   "linkStyle": {
                     "inherit": true,
@@ -1309,7 +906,12 @@
                   "duplicatable": true,
                   "deletable": true,
                   "hideable": true,
-                  "text": "<p style=\"line-height: 140%;\"><a rel=\"noopener\" href=\"https://www.facebook.com/profile.php?id=100095350403320\" target=\"_blank\" data-u-link-value=\"eyJuYW1lIjoid2ViIiwiYXR0cnMiOnsiaHJlZiI6Int7aHJlZn19IiwidGFyZ2V0Ijoie3t0YXJnZXR9fSJ9LCJ2YWx1ZXMiOnsiaHJlZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9wcm9maWxlLnBocD9pZD0xMDAwOTUzNTA0MDMzMjAiLCJ0YXJnZXQiOiJfYmxhbmsifX0=\"><span style=\"color: #3598db; line-height: 19.6px;\">Facebook</span></a></p>"
+                  "text": "<p style=\"line-height: 140%;\"><a rel=\"noopener\" href=\"https://www.facebook.com/profile.php?id=100095350403320\" target=\"_blank\" data-u-link-value=\"eyJuYW1lIjoid2ViIiwiYXR0cnMiOnsiaHJlZiI6Int7aHJlZn19IiwidGFyZ2V0Ijoie3t0YXJnZXR9fSJ9LCJ2YWx1ZXMiOnsiaHJlZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9wcm9maWxlLnBocD9pZD0xMDAwOTUzNTA0MDMzMjAiLCJ0YXJnZXQiOiJfYmxhbmsifX0=\"><span style=\"color: #3598db; line-height: 19.6px;\">Facebook</span></a></p>",
+                  "_override": {
+                    "mobile": {
+                      "hideMobile": true
+                    }
+                  }
                 }
               }
             ],
@@ -1319,14 +921,46 @@
               "border": {},
               "borderRadius": "0px",
               "_meta": {
-                "htmlID": "u_column_19",
+                "htmlID": "u_column_26",
                 "htmlClassNames": "u_column"
               }
             }
           },
           {
-            "id": "Abv6ocLPvQ",
+            "id": "qubrogYkdw",
             "contents": [
+              {
+                "id": "Byt_4aKwHk",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/stock-templates/1697162678923-1152328000000079004_6_1695746042818_zcsclwgtlin1.png",
+                    "width": 100,
+                    "height": 100
+                  },
+                  "textAlign": "center",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "displayCondition": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_11",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
               {
                 "id": "t1nPhgOBYh",
                 "type": "text",
@@ -1334,7 +968,7 @@
                   "containerPadding": "10px",
                   "anchor": "",
                   "fontSize": "14px",
-                  "textAlign": "left",
+                  "textAlign": "center",
                   "lineHeight": "140%",
                   "linkStyle": {
                     "inherit": true,
@@ -1354,7 +988,12 @@
                   "duplicatable": true,
                   "deletable": true,
                   "hideable": true,
-                  "text": "<p style=\"line-height: 140%;\"><span style=\"color: #3598db; line-height: 19.6px;\">LinkedIn</span></p>"
+                  "text": "<p style=\"line-height: 140%;\"><span style=\"color: #3598db; line-height: 19.6px;\">LinkedIn</span></p>",
+                  "_override": {
+                    "mobile": {
+                      "hideMobile": true
+                    }
+                  }
                 }
               }
             ],
@@ -1364,7 +1003,7 @@
               "border": {},
               "borderRadius": "0px",
               "_meta": {
-                "htmlID": "u_column_20",
+                "htmlID": "u_column_27",
                 "htmlClassNames": "u_column"
               }
             }
@@ -1384,9 +1023,8 @@
           },
           "padding": "0px",
           "anchor": "",
-          "hideDesktop": false,
           "_meta": {
-            "htmlID": "u_row_9",
+            "htmlID": "u_row_13",
             "htmlClassNames": "u_row"
           },
           "selectable": true,
@@ -1419,6 +1057,7 @@
                     "linkUnderline": true,
                     "linkHoverUnderline": true
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_text_10",
@@ -1459,6 +1098,7 @@
           },
           "padding": "0px",
           "anchor": "",
+          "hideDesktop": false,
           "_meta": {
             "htmlID": "u_row_11",
             "htmlClassNames": "u_row"
@@ -1493,6 +1133,7 @@
                     "linkUnderline": true,
                     "linkHoverUnderline": true
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_text_11",
@@ -1511,6 +1152,7 @@
                 "type": "text",
                 "values": {
                   "containerPadding": "2px",
+                  "anchor": "",
                   "fontSize": "10px",
                   "textAlign": "left",
                   "lineHeight": "140%",
@@ -1521,6 +1163,7 @@
                     "linkUnderline": true,
                     "linkHoverUnderline": true
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_text_13",
@@ -1539,6 +1182,7 @@
                 "type": "text",
                 "values": {
                   "containerPadding": "10px",
+                  "anchor": "",
                   "fontSize": "10px",
                   "textAlign": "center",
                   "lineHeight": "140%",
@@ -1549,6 +1193,7 @@
                     "linkUnderline": true,
                     "linkHoverUnderline": true
                   },
+                  "hideDesktop": false,
                   "displayCondition": null,
                   "_meta": {
                     "htmlID": "u_content_text_12",
@@ -1589,6 +1234,7 @@
           },
           "padding": "0px",
           "anchor": "",
+          "hideDesktop": false,
           "_meta": {
             "htmlID": "u_row_12",
             "htmlClassNames": "u_row"
