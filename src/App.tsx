@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import EmailEditor, { EditorRef, EmailEditorProps } from 'react-email-editor';
 import data from "./data.json"
+import FileSaver from 'file-saver';
 export default function App() {
   const emailEditorRef = useRef<EditorRef>(null);
 
@@ -10,6 +11,8 @@ export default function App() {
     unlayer?.exportHtml((data) => {
       const { design, html, } = data;
       console.log('exportHtml', design);
+      const blob = new Blob([html], { type: 'text/html' });
+      FileSaver.saveAs(blob, 'email.html');
       // console.log('html :>> ', html);
     });
     // unlayer?.saveDesign((data)=>{
