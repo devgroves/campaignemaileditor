@@ -7,7 +7,9 @@ export default function Home() {
 console.log('process.env.NEXT_PUBLIC_API_URL :>> ', process.env.NEXT_PUBLIC_API_URL);
   const api = process.env.NEXT_PUBLIC_API_URL
   const fetchData = async () => {
-    const response = await fetch(`${api}/items`);
+    const response = await fetch(`${api}/items`, {
+      mode: 'no-cors'
+    });
     const data = await response.json();
     setItems(data);
   };
