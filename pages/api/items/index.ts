@@ -1,15 +1,16 @@
+import db from "@/db";
 import { NextApiRequest, NextApiResponse } from "next";
 // import Datastore from "nedb";
 // import { join } from "path";
 
 // const dbPath = join(process.cwd(), "db/items.db");
 // const db = new Datastore({ filename: dbPath, autoload: true });
-import Datastore from "nedb";
+// import Datastore from "nedb";
 
-export const db = new Datastore({
-  filename: "db/items.db",
-  autoload: true,
-})
+// export const db = new Datastore({
+//   filename: "db/items.db",
+//   autoload: true,
+// })
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "GET") {
