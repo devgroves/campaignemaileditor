@@ -23,7 +23,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
        });
      } else {
        db.find({}, (err:any, items:any) => {
-         if (err) return res.status(500).json({ error: "Internal Server Error" });
+         if (err) return res.status(500).json({ error: "Internal Server Error", r: err });
          res.status(200).json(items);
        });
      }
