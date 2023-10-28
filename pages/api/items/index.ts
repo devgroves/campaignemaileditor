@@ -13,6 +13,14 @@ import { NextApiRequest, NextApiResponse } from "next";
 // })
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  // Node.js program to demonstrates how to 
+  // get the current path of script 
+  // To get the filename 
+  console.log(`Filename is ${__filename}`); 
+
+  // To get the directory name 
+  console.log(`Directory name is ${__dirname}`); 
+  
   if (req.method === "GET") {
      const { id } = req.query;
      if (id) {
