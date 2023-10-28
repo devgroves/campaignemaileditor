@@ -3,10 +3,10 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   // To get the current filename 
-  process.stdout.write(`Filename is ${__filename}`); 
+  console.log(`Filename is ${__filename}`); 
 
   // To get the current directory name 
-  process.stdout.write(`Directory name is ${__dirname}`); 
+  console.log(`Directory name is ${__dirname}`); 
 
   if (req.method === "GET") {
     console.log("get request called.....");
