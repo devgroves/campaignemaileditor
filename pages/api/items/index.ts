@@ -1,27 +1,15 @@
 import db from "@/db";
 import { NextApiRequest, NextApiResponse } from "next";
-// import Datastore from "nedb";
-// import { join } from "path";
-
-// const dbPath = join(process.cwd(), "db/items.db");
-// const db = new Datastore({ filename: dbPath, autoload: true });
-// import Datastore from "nedb";
-
-// export const db = new Datastore({
-//   filename: "db/items.db",
-//   autoload: true,
-// })
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  // Node.js program to demonstrates how to 
-  // get the current path of script 
-  // To get the filename 
-  console.log(`Filename is ${__filename}`); 
+  // To get the current filename 
+  process.stdout.write(`Filename is ${__filename}`); 
 
-  // To get the directory name 
-  console.log(`Directory name is ${__dirname}`); 
-  
+  // To get the current directory name 
+  process.stdout.write(`Directory name is ${__dirname}`); 
+
   if (req.method === "GET") {
+    console.log("get request called.....");
      const { id } = req.query;
      if (id) {
        db.findOne({ _id: id }, (err, item) => {
