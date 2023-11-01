@@ -78,7 +78,7 @@ function View({id}:any) {
    }
   };
   return (
-    <div className="container">
+    <div className="container1">
       <nav>
         <div style={{ padding: 10 }}></div>
         <button onClick={SaveDesign}>Save Design</button>
