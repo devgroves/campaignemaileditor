@@ -2,9 +2,7 @@ import path from "path";
 import Datastore from "nedb";
 
 const db = new Datastore({
-  // filename: path.join(__dirname, "public/db/items.db"),
-  // autoload: true,
-    filename: "/var/items.db",
+   filename: path.join(__dirname, "db/items.db"),
     autoload: true,
 });
 // console.log('db :>> ', db);
