@@ -2,9 +2,74 @@ import React, { useRef } from 'react';
 import EmailEditor, { EditorRef, EmailEditorProps } from 'react-email-editor';
 import FileSaver from 'file-saver';
 import dynamic from 'next/dynamic';
+import Modal from './modal';
+
 const api = process.env.NEXT_PUBLIC_API_URL
 function Template() {
   const emailEditorRef = useRef<EditorRef>(null);
+  const [open, setOpen] = React.useState(false);
+  const [design, setDesign] = React.useState();
+  const [templateName, setTemplateName] = React.useState("");
+
+  const stringify = (obj) => {
+    let cache = [];
+    let str = JSON.stringify(obj, function(key, value) {
+      if (typeof value === "object" && value !== null) {
+        if (cache.indexOf(value) !== -1) {
+          // Circular reference found, discard key
+          return;
+        }
+        // Store value in our collection
+        cache.push(value);
+      }
+      return value;
+    });
+    cache = null; // reset the cache
+    return str; 
+  }
+
+  const handleClose = async (savedTemplateName) => {
+    console.log("handle close method click", savedTemplateName, templateName);
+    if (savedTemplateName) {
+        getDesign(saveApiCall, savedTemplateName);
+        // let bodyStr = JSON.stringify({ data: design, name: savedTemplateName });
+        // const response = await fetch(`${api}/items`, {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        //   body: bodyStr
+        // });
+        // if (response.status === 201) {
+        //   alert(savedTemplateName +" created sucessfully")
+        //   window.location.href = "/";
+        // }
+    }
+    setOpen(false);
+  };
+
+  const saveApiCall = async (emailDesign, savedTemplateName) => {
+    console.log("save api call method called", emailDesign);
+    let emailDesignStr = JSON.stringify(emailDesign);
+    let bodyStr = JSON.stringify({ data: emailDesign, name: savedTemplateName });
+    const response = await fetch(`${api}/items`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: bodyStr
+    });
+    if (response.status === 201) {
+      alert(savedTemplateName +" created sucessfully")
+      window.location.href = "/";
+    }
+  }
+
+  const handleOpen = () => {
+    console.log("handle open click");
+    setOpen(true);
+  };
+
   function generateUniqueTemplateName(prefix: string): string {
     // Generate a unique identifier, such can be a timestamp or a random string.
     const uniqueIdentifier = Date.now().toString(36); // Using timestamp as an example
@@ -15,18 +80,10 @@ function Template() {
     return uniqueName;
   }
   const handleCreateItem = async (design: any) => {
-    const templateName = generateUniqueTemplateName("template");
-
-    const response = await fetch(`${api}/items`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ data: design, name: templateName }),
-    });
-    if (response.status === 201) {
-      alert(templateName +"Created Sucessfull")
-    }
+    // const templateName = generateUniqueTemplateName("template");
+    setOpen(true);
+    setDesign(design);
+    
   };
   const exportHtml = () => {
     if (typeof window !== 'undefined') {
@@ -51,6 +108,17 @@ function Template() {
       });
     }
   };
+  const getDesign = (callback, saveTemplateName) => {
+    if (typeof window !== 'undefined') {
+      const unlayer = emailEditorRef.current?.editor;
+
+      unlayer?.exportHtml((data) => {
+        const { design, html, } = data;
+        console.log('exportHtml', design);
+        callback(design, saveTemplateName)
+      });
+    }
+  }
   const onReady: EmailEditorProps['onReady'] = (unlayer) => {
   };
   const onDesignLoad = (data: any) => {
@@ -63,6 +131,7 @@ function Template() {
   // };
   return (
     <div className="container1">
+      
       <nav>
         <div style={{ padding: 10 }}></div>
         <button onClick={SaveDesign}>Save Design</button>
@@ -72,7 +141,9 @@ function Template() {
       {typeof window !== 'undefined' && (
         <EmailEditor ref={emailEditorRef} onReady={onReady}  />
       )}
-
+      <Modal isOpen={open} onClose={handleClose} templateName={templateName}>
+        
+      </Modal>
     </div>
   )
 }

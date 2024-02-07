@@ -2,9 +2,11 @@ import React, { useRef,useEffect ,useState} from 'react';
 import EmailEditor, { EditorRef, EmailEditorProps } from 'react-email-editor';
 import FileSaver from 'file-saver';
 import dynamic from 'next/dynamic';
+
 const api = process.env.NEXT_PUBLIC_API_URL
 function View({id}:any) {
-  const [data,setData]=useState()
+  const [data, setData] = useState();
+ 
   const emailEditorRef = useRef<EditorRef>(null);
   const handleGetItemById = async (tempid: any) => {
     const response = await fetch(`${api}/items?id=${tempid}`);
@@ -57,12 +59,12 @@ function View({id}:any) {
   const SaveDesign = () => {
     if (typeof window !== 'undefined') {
       const unlayer = emailEditorRef.current?.editor;
-
-      unlayer?.exportHtml((data) => {
-        const { design, html, } = data;
-        console.log('exportHtml', design);
-        handleCreateItem(design)
-      });
+      console.log("save design button clicked..");
+      // unlayer?.exportHtml((data) => {
+      //   const { design, html, } = data;
+      //   console.log('exportHtml', design);
+      //   handleCreateItem(design)
+      // });
     }
   };
   const onReady: EmailEditorProps['onReady'] = (unlayer) => {
@@ -79,6 +81,7 @@ function View({id}:any) {
   };
   return (
     <div className="container1">
+      
       <nav>
         <div style={{ padding: 10 }}></div>
         <button onClick={SaveDesign}>Save Design</button>
