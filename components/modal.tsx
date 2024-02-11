@@ -2,14 +2,19 @@
 
 import React from "react";
 
-const Modal = ({ isOpen, onClose, templateName }) => {
+interface ModalProps {
+	isOpen:boolean;
+	onClose: (templateName: string) => Promise<void>;
+	templateName:string;
+}
+const Modal = ({ isOpen, onClose, templateName }: ModalProps) => {
 	if (!isOpen) return null;
 
-    const saveBtnClicked = () => {
-        console.log("save button click");
-        console.log("templatename ", templateName);
-        onClose(templateName);
-    };
+	const saveBtnClicked = () => {
+		console.log("save button click");
+		console.log("templatename ", templateName);
+		onClose(templateName);
+	};
 
 	return (
 		<div
@@ -35,12 +40,12 @@ const Modal = ({ isOpen, onClose, templateName }) => {
 					boxShadow: "2px solid black",
 				}}
 			>
-                <h2>Please provide the template name:</h2>
-                <input onChange={e => {templateName = e.target.value}} type="text" name="templateName"></input>
-                <button onClick={saveBtnClicked}>Save</button>
+				<h2>Please provide the template name:</h2>
+				<input onChange={e => { templateName = e.target.value }} type="text" name="templateName" />
+				<button onClick={saveBtnClicked}>Save</button>
 			</div>
 		</div>
 	);
 };
 
-export default Modal;
+export default React.memo(Modal);

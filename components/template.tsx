@@ -9,26 +9,26 @@ function Template() {
   const emailEditorRef = useRef<EditorRef>(null);
   const [open, setOpen] = React.useState(false);
   const [design, setDesign] = React.useState();
-  const [templateName, setTemplateName] = React.useState("");
+  const [templateName, setTemplateName] = React.useState<string>("");
 
-  const stringify = (obj) => {
-    let cache = [];
-    let str = JSON.stringify(obj, function(key, value) {
-      if (typeof value === "object" && value !== null) {
-        if (cache.indexOf(value) !== -1) {
-          // Circular reference found, discard key
-          return;
-        }
-        // Store value in our collection
-        cache.push(value);
-      }
-      return value;
-    });
-    cache = null; // reset the cache
-    return str; 
-  }
+  // const stringify = (obj) => {
+  //   let cache = [];
+  //   let str = JSON.stringify(obj, function(key, value) {
+  //     if (typeof value === "object" && value !== null) {
+  //       if (cache.indexOf(value) !== -1) {
+  //         // Circular reference found, discard key
+  //         return;
+  //       }
+  //       // Store value in our collection
+  //       cache.push(value);
+  //     }
+  //     return value;
+  //   });
+  //   cache = null; // reset the cache
+  //   return str; 
+  // }
 
-  const handleClose = async (savedTemplateName) => {
+  const handleClose = async (savedTemplateName:string) => {
     console.log("handle close method click", savedTemplateName, templateName);
     if (savedTemplateName) {
         getDesign(saveApiCall, savedTemplateName);
@@ -48,7 +48,7 @@ function Template() {
     setOpen(false);
   };
 
-  const saveApiCall = async (emailDesign, savedTemplateName) => {
+  const saveApiCall = async (emailDesign:any, savedTemplateName:string) => {
     console.log("save api call method called", emailDesign);
     let emailDesignStr = JSON.stringify(emailDesign);
     let bodyStr = JSON.stringify({ data: emailDesign, name: savedTemplateName });
@@ -108,7 +108,7 @@ function Template() {
       });
     }
   };
-  const getDesign = (callback, saveTemplateName) => {
+  const getDesign = (callback:any, saveTemplateName:string) => {
     if (typeof window !== 'undefined') {
       const unlayer = emailEditorRef.current?.editor;
 
@@ -141,9 +141,8 @@ function Template() {
       {typeof window !== 'undefined' && (
         <EmailEditor ref={emailEditorRef} onReady={onReady}  />
       )}
-      <Modal isOpen={open} onClose={handleClose} templateName={templateName}>
-        
-      </Modal>
+      {open &&<Modal isOpen={open} onClose={handleClose} templateName={templateName}/>}
+
     </div>
   )
 }
