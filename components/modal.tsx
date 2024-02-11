@@ -34,15 +34,17 @@ const Modal = ({ isOpen, onClose, templateName }: ModalProps) => {
 				style={{
 					background: "whitesmoke",
 					margin: "auto",
-					padding: "2%",
+					padding: "5%",
 					border: "2px solid #000",
 					borderRadius: "10px",
 					boxShadow: "2px solid black",
 				}}
+				className="flex flex-col justify-center items-center"
 			>
-				<h2>Please provide the template name:</h2>
-				<input onChange={e => { templateName = e.target.value }} type="text" name="templateName" />
-				<button onClick={saveBtnClicked}>Save</button>
+				<h2 className="font-semibold  p-2 text-gray-500 dark:text-gray-400">Please provide the template name:</h2>
+				<input onChange={e => { templateName = e.target.value }} type="text" name="templateName" 
+					className="bg-gray-50 p-2 mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
+				<button onClick={saveBtnClicked} className="w-56">Save</button>
 			</div>
 		</div>
 	);
